@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 3%;
+    background-color: rgb(43, 43, 43);
+    border-bottom: 1px solid black;
+    z-index: 9999;
+}
+
+.navbar-logo img {
+    width: 20%;
+}
+
+.navbar-nav a {
+    color: white;
+    margin: 0 0.4rem;
+}
+
+
+/* Hero section start */
+.hero {
+    display: flex;
+    min-height: 100vh;
+    align-items: normal;
+    background-image: url(../ASSETS/FOTOKU.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    background: linear-gradient(0deg, rgb(255, 255, 255) 8%, rgba(255, 255, 255, 0) 50%);
+}
+
+.content {
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 60px;
+    color: rgb(31, 24, 24);
+}
+/* Form Section end */
+
+
+/* Our skill Section start */
+.menu .row {
+    display:flex ;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+    margin: 50px;
+    flex-direction: row;
+}
+
+.menu .row .foto-skill img {
+    border-radius: 50%;
+    width: 20%;
+    padding-top: 50px;
+}
+
+
+/* Our skill Section end */
+
+
+
+/* Form Section start */
+.form {
+    display:flexbox;
+    flex-direction: column;
+    padding: 20px;
+    background: linear-gradient(0deg, rgb(185, 185, 185) 40%, rgba(255, 255, 255, 0) 90%);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Form Section start */
